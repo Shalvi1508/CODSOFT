@@ -1,1 +1,246 @@
+index.html
 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corporate Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>DesignSphere Solutions</h1>
+
+        <nav>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h2>Innovating Solutions for Your Business</h2>
+        <p>We deliver world-class services tailored to your needs.</p>
+      </div>
+    </section>
+
+    <section class="features">
+      <div class="container">
+        <h2>Our Expertise</h2>
+        <div class="feature">
+          <img
+            src="increase_performance.jpg"
+            alt="High Performance"
+            class="feature-image"
+          />
+          <h3>High Performance</h3>
+          <p>We ensure top-notch performance for all our solutions.</p>
+        </div>
+        <div class="feature">
+          <img src="building.png" alt="creative image" class="feature-image" />
+          <h3>Scalable Solutions</h3>
+          <p>Our solutions grow with your business.</p>
+        </div>
+        <div class="feature">
+          <img src="teamwork.jpg" alt="creative image" class="feature-image" />
+          <h3>Expert Team</h3>
+          <p>Our team consists of industry-leading experts.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="container">
+        <h2>About Us</h2>
+        <p>
+          With over 20 years of experience, we specialize in providing
+          high-quality solutions to our clients. Our mission is to help
+          businesses succeed by delivering innovative and effective strategies.
+        </p>
+      </div>
+    </section>
+
+    <section class="testimonials">
+      <div class="container">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+          <p>
+            "Working with Company Name was a game changer for our business.
+            Their expertise and dedication truly made a difference!"
+          </p>
+          <cite>- ABC, xyz</cite>
+        </blockquote>
+      </div>
+    </section>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2024 DesignSphere Solutions. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
+
+
+
+styles.css
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  padding: 20px 0;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #2980b9;
+  color: #ecf0f1;
+  padding: 180px 0;
+  text-align: center;
+  background-image: url("idea.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  margin: 20px 0;
+}
+
+.btn {
+  background-color: #27ae60;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #219150;
+}
+
+.features {
+  padding: 50px 0;
+  text-align: center;
+  background-color: #ecf0f1;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+}
+
+.features .feature {
+  display: inline-block;
+  width: 30%;
+  margin: 20px 1.5%;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.feature-image {
+  max-width: 100%;
+  height: auto;
+}
+
+.features h3 {
+  margin-top: 15px;
+  font-size: 24px;
+}
+
+.features p {
+  font-size: 16px;
+}
+
+.about {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+}
+
+.about p {
+  margin: 20px 0;
+}
+
+.about-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+.testimonials {
+  padding: 50px 0;
+  background-color: #2980b9;
+  color: #ecf0f1;
+  text-align: center;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin: 20px auto;
+  max-width: 600px;
+}
+
+footer {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 50px;
+}
